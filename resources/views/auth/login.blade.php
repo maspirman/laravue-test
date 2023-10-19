@@ -23,7 +23,7 @@
                             <label>username</label>
                             <input id="username" type="text" class="form-control w-75 @error('username') is-invalid @enderror" name="username" value="{{ old('username') }}" required autocomplete="username" autofocus>
                             
-                            @error('username')
+                            @error('username') 
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
                                 </span>

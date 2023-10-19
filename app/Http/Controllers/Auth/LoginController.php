@@ -18,7 +18,7 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
-
+//fix issues
     public function login(Request $request)
     {
         $credentials = $request->only('username', 'password');
